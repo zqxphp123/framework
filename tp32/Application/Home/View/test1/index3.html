@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	{$data1}
+	<if condition="$data2['sex'] eq '男'">强大
+		<else />相对弱小
+	</if>
+	<foreach name="data3" item="v">
+	{$v.name}_{$v.age}<br />
+	</foreach>
+</body>
+</html>
